@@ -56,6 +56,13 @@
         "hasMap": "https://maps.app.goo.gl/WJZ9tge54CNasCrd9"
       }
     </script>
+    <script>
+      // Single-Page-App fallback: If served uncompiled from GitHub Pages root on main branch, redirect to /docs/
+      if (window.location.hostname.endsWith('github.io') && !window.location.pathname.includes('/docs')) {
+        var base = window.location.pathname.replace(/\/+$/, '');
+        window.location.replace(base + '/docs/' + window.location.search + window.location.hash);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
