@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { DEFAULT_THEME, themes } from '../data/themes'
 
-const STORAGE_KEY = 'pichera-temple-theme'
+const STORAGE_KEY = 'pachera-temple-theme'
 const ThemeContext = createContext(null)
 
 const themeMetaColors = {

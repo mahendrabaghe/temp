@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
-const STORAGE_KEY = 'pichera-temple-language'
+const STORAGE_KEY = 'pachera-temple-language'
 const LanguageContext = createContext(null)
 
 function readSavedLanguage() {

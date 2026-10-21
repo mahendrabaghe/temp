@@ -57,7 +57,7 @@ function publicImagesWatcherPlugin() {
 // GitHub Pages project sites are served from /<repository-name>/.
 // Change this default if your repository has a different name, or set
 // VITE_BASE="/your-repo-name/" in a local .env file.
-const base = process.env.VITE_BASE || '/pichera-temple/'
+const base = process.env.VITE_BASE || '/temp/'
 
 // https://vite.dev/config/
 export default defineConfig({
